@@ -1,4 +1,4 @@
-package com.example.springstudy;
+package com.example.springstudy.phase1;
 
 import lombok.AllArgsConstructor;
 import org.springframework.mail.SimpleMailMessage;

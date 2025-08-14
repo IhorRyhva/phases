@@ -1,4 +1,4 @@
-package com.example.springstudy.firstLesson;
+package com.example.springstudy.phase1.firstLesson;
 
 public class Car {
     public void sound(){

@@ -1,8 +1,7 @@
-package com.example.springstudy.firstLesson;
+package com.example.springstudy.phase1.firstLesson;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
-import org.springframework.stereotype.Component;
 
 //@Component
 public class BeanPostProcessorImp implements BeanPostProcessor {

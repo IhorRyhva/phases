@@ -1,6 +1,7 @@
 package com.example.springstudy;
 
-import com.example.springstudy.firstLesson.Car;
+import com.example.springstudy.phase1.EmailService;
+import com.example.springstudy.phase1.firstLesson.Car;
 import lombok.Data;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

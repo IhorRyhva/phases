@@ -1,4 +1,4 @@
-package com.example.springstudy.firstLesson;
+package com.example.springstudy.phase1.firstLesson;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

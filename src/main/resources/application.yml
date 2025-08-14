@@ -1,4 +1,17 @@
 spring:
+  application:
+    name: study
+  datasource:
+    username: root
+    password: 1111
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tasks
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQLDialect
   mail:
     host: smtp.gmail.com
     port: 587
@@ -9,7 +22,6 @@ spring:
       mail.smtp.starttls.enable: true
       mail.smtp.starttls.required: true
       mail.smtp.ssl.trust: smtp.gmail.com
-#  application:
-#    name: springStudy
+
 #  profiles:
 #    active: dev
